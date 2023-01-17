@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #99d1e8;
+    font-family: "Raleway", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main {
+    max-width: 250px;
+    height: max-content;
+    background-color: white;
+    margin: auto;
+    box-shadow: gray;
+    border-radius: 20px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 15px 25px;
+}
+
+.qr {
+    width: 100%;
+}
+
+.main>*,
+.qr>img {
+    border-radius: 12px;
+    margin-bottom: 10px;
+}
+
+.qr img {
+    width: 100%;
+}
+
+.text {
+    justify-content: center;
+    text-align: center;
+}
+
+h6 {
+    margin-top: 10px;
+    color: gray;
+}
